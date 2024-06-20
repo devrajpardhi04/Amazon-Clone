@@ -1,90 +1,21 @@
-Project Overview
+# Amazon 🛒
+
 This project is an Amazon clone developed using React, Node.js, and MongoDB. It replicates the basic functionality of an e-commerce website, including user authentication, product browsing, shopping cart, and order processing.
 
-Features
-User Authentication: Sign up, login, and logout functionality with secure password hashing.
-Product Management: Browse products, view product details, and search for products.
-Shopping Cart: Add, remove, and update product quantities in the cart.
-Order Processing: Place orders and view order history.
-Payment Integration: Integrate with payment gateways for order payments.
-Responsive Design: Optimized for various screen sizes and devices.
-Tech Stack
-Frontend: React, Redux, CSS, Material-UI
-Backend: Node.js, Express
-Database: MongoDB
-Authentication: JWT (JSON Web Tokens)
-Payment Gateway: Stripe API
-Installation and Setup
-Clone the repository:
+## Features ✨
 
-bash
-Copy code
-git clone https://github.com/your-username/amazon-clone.git
-cd amazon-clone
-Install dependencies:
 
-bash
-Copy code
-npm install
-cd client
-npm install
-Set up environment variables:
-Create a .env file in the root directory and add the following variables:
+- **User Authentication**: Sign up, login, and logout functionality with secure password hashing.
+- **Product Management**: Browse products, view product details, and search for products.
+- **Shopping Cart**: Add, remove, and update product quantities in the cart.
+- **Order Processing**: Place orders and view order history.
+- **Payment Integration**Integrate with payment gateways for order payments.
+- **Responsive Design:**:Optimized for various screen sizes and devices.
 
-env
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-Start the development server:
+## Some Images 🎥
 
-bash
-Copy code
-npm run dev
-Access the application:
-Open your browser and navigate to http://localhost:3000
-
-Project Structure
-client: Contains the React frontend code.
-src
-components: Reusable UI components.
-pages: React components for different pages.
-redux: Redux store setup and slices.
-App.js: Main application component.
-index.js: Entry point of the React application.
-server: Contains the Node.js backend code.
-controllers: Request handlers for various routes.
-models: Mongoose models for MongoDB collections.
-routes: Express routes for API endpoints.
-middlewares: Custom middleware functions.
-server.js: Entry point of the Node.js application.
-Scripts
-Start the development server:
-bash
-Copy code
-npm run dev
-Build the project:
-bash
-Copy code
-npm run build
-Start the production server:
-bash
-Copy code
-npm start
-Run tests:
-bash
-Copy code
-npm test
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the code style and include tests for new features or bug fixes.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Acknowledgements
-React
-Node.js
-MongoDB
-Express
-Stripe
+![GitHub - devraj17112000_E-commerceapp - Google Chrome 21-06-2024 01_48_00](https://github.com/devrajpardhi04/Amazon-Clone/assets/133412139/8cde88c3-8b1f-45ba-8e86-032ff3d24952)
+![GitHub - devraj17112000_E-commerceapp - Google Chrome 21-06-2024 01_48_05](https://github.com/devrajpardhi04/Amazon-Clone/assets/133412139/73e2a4b8-3090-4f93-8136-8883d61080fc)
+![GitHub - devraj17112000_E-commerceapp - Google Chrome 21-06-2024 01_48_09](https://github.com/devrajpardhi04/Amazon-Clone/assets/133412139/c2dc2b60-84a8-4162-9490-49242fd3cf0a)
+![GitHub - devraj17112000_E-commerceapp - Google Chrome 21-06-2024 01_48_20](https://github.com/devrajpardhi04/Amazon-Clone/assets/133412139/d49c7502-a621-40b3-9628-db84320afb8f)
+![GitHub - devraj17112000_E-commerceapp - Google Chrome 21-06-2024 01_47_46](https://github.com/devrajpardhi04/Amazon-Clone/assets/133412139/4e6b4817-da66-466b-a9ec-64799693f7f9)
